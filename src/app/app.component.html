@@ -1,1 +1,8 @@
-<app-face-snap *ngFor="let faceSnap of faceSnaps" [faceSnap]="faceSnap"></app-face-snap>
+<app-header></app-header>
+
+<p>PI={{3.1415926535 | number:'1.0-6'}}</p>
+<p>vitesse de la lumiére {{299792458|number :'1.2'}} m/s </p>
+<p>1 tiers ={{0.333333333 |percent:'0.1-2'}}</p>
+<p>money :{{342.16|currency: 'EUR':'code'}}</p>
+<app-face-snap-list></app-face-snap-list>
+
